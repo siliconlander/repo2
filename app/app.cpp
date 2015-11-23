@@ -38,18 +38,22 @@ static int parseCommandLineOptions(int argc, char **argv)
 	  cout << "--debug \t   \t Run in debug mode.\n";
 	  cout << "--production \t   \t Run in production mode.\n";
 	  cout << "--help \t -h \t Display this help message.\n\n";
-	  return 0;
+	  //return 0;
+	  break;
 
 	case '?':
 	  // Unrecognized option
 	  cout << "\n\tUnrecognized option. Try --help\n";
-	  return 0;
+	  //return 0;
+	  break;
       
 	default:
 	  // No special action to do on the other valid options
 	  break;
 	}
     }
+
+  return 0;
 }
 
 static void doWork()
