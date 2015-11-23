@@ -95,7 +95,7 @@ int main(int argc, char **argv)
     }
   catch(...)
     {
-      cout << "\n\n\tUnknown expection occurred.\n\n";
+      cout << "\n\n\tUnknown exception occurred.\n\n";
     }
   
   return 0;
